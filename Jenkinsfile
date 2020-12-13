@@ -10,6 +10,7 @@ pipeline {
             }
 
         }
+      }
 
     stages {
         stage('Test'){
@@ -18,7 +19,7 @@ pipeline {
             }
 
         }
-    
+    }
     stages {
         stage('Deploy'){
             steps {
@@ -27,3 +28,4 @@ pipeline {
 
         }
  }
+}
