@@ -10,22 +10,18 @@ pipeline {
             }
 
         }
-      }
-
-    stages {
         stage('Test'){
             steps {
                 echo 'Testing..'
             }
 
         }
-    }
-    stages {
         stage('Deploy'){
             steps {
                 echo 'Deploying....'
             }
 
         }
- }
-}
+      }
+
+        }
